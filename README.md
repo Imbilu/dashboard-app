@@ -1,5 +1,13 @@
-## Next.js App Router Course - Starter
+# Dashboard
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+Welcome to my **Next.js Dashboard** project! This is a modern and scalable dashboard application built with Next.js, utilizing PostgreSQL for database operations and bcrypt for secure password hashing.
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+## Features
+
+-   **User Authentication**: Secure login and registration with bcrypt password hashing.
+-   **Dynamic Dashboard**: Interactive and responsive dashboard UI.
+-   **Data Management**: Integration with PostgreSQL for efficient data handling.
+
+Login Credentials:
+Email: user@nextmail.com
+Password: 123456

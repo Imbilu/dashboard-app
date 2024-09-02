@@ -17,16 +17,21 @@ export default function Page() {
                     <p
                         className={`text-xl text-gray-800 md:text-3xl md:leading-normal ${lusitana.className}`}
                     >
-                        <strong>Welcome to Acme.</strong> This is the example
-                        for the{" "}
+                        <strong>Welcome to Acme.</strong> This is a for the{" "}
                         <a
                             href="https://nextjs.org/learn/"
                             className="text-blue-500"
                         >
-                            Next.js Learn Course
+                            modern, scalable dashboard application using
+                            Next.js.
                         </a>
-                        , brought to you by Vercel.
                     </p>
+                    <br />
+                    Login Credentials:
+                    <ul>
+                        <li>Email: user@nextmail.com</li>
+                        <li>Password: 123456</li>
+                    </ul>
                     <Link
                         href="/login"
                         className="flex items-center gap-5 self-start rounded-lg bg-blue-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
